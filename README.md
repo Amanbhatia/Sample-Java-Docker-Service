@@ -21,7 +21,6 @@ mvn clean package
 java -jar target/test-cxf-boot.jar
 
 ```
-
 Alternatively, you can also run  the jar by using below maven command.
 
 ```
@@ -39,8 +38,7 @@ Go to the browser and open below URL, to see the XML response
 ```
 http://localhost:5000/services/helloCXF/xml/aman
 ```
-
-# You should see json response greetings.
+#### You should see json response greetings.
 
 ## Docker Commands
 Build the docker image

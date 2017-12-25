@@ -44,7 +44,6 @@ http://localhost:5000/services/helloCXF/xml/aman
 Build the docker image
 ```
 docker build -t myservice .
-
 ```
 Run the docker image
 ```
@@ -53,7 +52,6 @@ docker run -it -p 5000:5000 myservice:latest
 Go to the browser and open below URL, to see the WADL
  ```
 http://localhost:5000/services/helloCXF/json/aman
-
 ```
 
 To Remove an image
